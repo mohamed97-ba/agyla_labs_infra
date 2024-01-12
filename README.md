@@ -1,4 +1,4 @@
-# Project Setup & Cloning Guide
+# Project Setup
 
 # Serverless App - Pet-Cuddle-O-Tron
 

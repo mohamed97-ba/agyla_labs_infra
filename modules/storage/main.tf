@@ -63,7 +63,7 @@ data "local_file" "cuddle_serverless" {
   filename = "serverless_frontend/serverless.js"
   depends_on = [null_resource.generate_serverless]
 }
-
+## to be improved
 resource "aws_s3_object" "cuddle_serverless_index" {
   bucket = aws_s3_bucket.cuddle_serverless_bucket.id
   key    = "index.html"
